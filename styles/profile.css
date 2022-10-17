@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url(//db.onlinewebfonts.com/c/d8a3c95906aec0c2483082a82e72cb40?family=WanderlustShine-Regular);
+
+@font-face {
+    font-family: 'Publica';
+    src: url(/fonts/Res\ Publica\ Regular.ttf);
+}
+
+html
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.sec1 {
+    background-image: url(../images/profile_img_orignal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    top: -110px;
+    width: 100%;
+}
+
+.sec1 h1
+{
+    font-family: 'WanderlustShine-Regular';
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 175px;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.sec2
+{
+    position: absolute;
+    top: 600.5px;
+}
+
+.sec2 h1
+{
+    position: absolute;
+    top: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    font-size: 40px;
+    text-align: justify;
+    font-family: 'Exo';
+    color: #fff;
+    justify-content: center;
+}
+
+.nothing
+{
+    position: absolute;
+    left: 650px;
+    top: 310px;
+    font-family: 'Res';
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+    .sec2 img
+    {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .sec2 h1
+    {
+        font-size: 15px;
+        margin-left: 50px;
+        margin-right: 50px;
+        position: absolute;
+        top: 155px;
+    }
+    .nothing
+    {
+        position: absolute;
+        top: 120px;
+        left: 250px;
+    }
+}
+
