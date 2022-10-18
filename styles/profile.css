@@ -10,10 +10,9 @@
     src: url(/fonts/Res\ Publica\ Regular.ttf);
 }
 
-@font-face {
-    font-family: 'Wanderlust';
-    src: url(/fonts/Wanderlust\ Shine.ttf);
-}
+@font-face {font-family:'wanderlust';
+    src: url(/fonts/WanderlustLetters-Regular.ttf);
+  }
 
 html
 {
@@ -42,7 +41,7 @@ html
 
 .sec1 h1
 {
-    font-family:'Wanderlust';
+    font-family:'wanderlust';
     color: #fff;
     display: flex;
     justify-content: center;
@@ -82,6 +81,10 @@ html
 }
 
 @media only screen and (max-width: 600px) {
+    .sec1 h1
+    {
+        font-size: 15px;
+    }
     .sec2 img
     {
         width: 100%;
