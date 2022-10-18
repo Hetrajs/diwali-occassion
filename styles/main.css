@@ -137,7 +137,7 @@ button[type="submit"]
   color: grey;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 752px) {
   body h1
   {
     font-size: 32px;
@@ -150,5 +150,12 @@ button[type="submit"]
     width: 350px;
     position: absolute;
     left: 200px;
+  }
+}
+
+@media only screen and (max-width: 192px) {
+  body h1
+  {
+    font-size: 28px;
   }
 }
