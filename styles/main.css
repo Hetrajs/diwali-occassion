@@ -6,10 +6,6 @@
 
 body {
   background-image: url(../images/bg-image-6-1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -138,6 +134,10 @@ button[type="submit"]
 }
 
 @media only screen and (max-width: 752px) {
+  body 
+  {
+    width: 75%;
+  }
   body h1
   {
     font-size: 32px;
